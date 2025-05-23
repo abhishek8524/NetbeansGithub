@@ -54,4 +54,9 @@ private int sem;
     public void setSem(int sem) {
         this.sem = sem;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" + "name=" + name + ", sid=" + sid + ", sem=" + sem + '}';
+    }
 }
